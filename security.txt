@@ -1,0 +1,3 @@
+Contact: mailto:hello@lucidseal.com
+Preferred-Languages: en
+Canonical: https://lucidseal.org/.well-known/security.txt

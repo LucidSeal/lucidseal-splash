@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LucidSeal — Where Digital Trust Begins</title>
+  <meta name="description" content="A free, community-driven framework to help boards and organisations build clarity, accountability, and resilience in the digital era.">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="icon" type="image/png" href="assets/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+<link rel="shortcut icon" href="assets/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="LucidSeal" />
+<link rel="manifest" href="assets/site.webmanifest" />
+  <style>
+    :root{
+      --bg:#f9fafb;
+      --fg:#0f172a;
+      --muted:#475569;
+      --brand:#1d2d44;
+      --btn:#1d2d44;
+      --btnHover:#16324f;
+      --card:#fff;
+      --ring: rgba(29,45,68,.15);
+    }
+    @media (prefers-color-scheme: dark){
+      :root{
+        --bg:#0b1020;
+        --fg:#e5e7eb;
+        --muted:#9ca3af;
+        --brand:#cfe1ff;
+        --btn:#334155;
+        --btnHover:#1f2937;
+        --card:#0f172a;
+        --ring: rgba(207,225,255,.15);
+      }
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      line-height:1.5;
+    }
+    .wrap{
+      width:min(960px, 92vw);
+      margin: 6vh auto;
+      text-align:center;
+    }
+    .badge{
+      width:88px; height:88px;
+      margin: 0 auto 16px;
+      display:grid; place-items:center;
+      border-radius:20px;
+      background: var(--card);
+      box-shadow: 0 10px 30px var(--ring), 0 1px 1px rgba(0,0,0,.05) inset;
+    }
+    .badge img{width:44px; height:44px}
+    h1{
+      margin: 8px 0 6px;
+      font-size: clamp(1.6rem, 3.8vw, 2.4rem);
+      letter-spacing:-0.02em;
+    }
+    p.sub{
+      margin: 0 auto 22px;
+      color: var(--muted);
+      max-width: 54ch;
+    }
+    .cta{
+      display:flex; gap:12px; align-items:center; justify-content:center; flex-wrap:wrap;
+    }
+    .btn{
+      appearance:none; border:0; cursor:pointer;
+      padding:.8rem 1.25rem; border-radius:9999px;
+      background:var(--btn); color:#fff; font-weight:600;
+      text-decoration:none; display:inline-flex; align-items:center; gap:.5rem;
+      box-shadow: 0 8px 18px var(--ring);
+      transition: transform .12s ease, background .2s ease, opacity .2s ease;
+    }
+    .btn:hover{ background:var(--btnHover); transform: translateY(-1px); }
+    .btn.secondary{ background:transparent; color:var(--btn); border:1.5px solid var(--btn); }
+    .btn.secondary:hover{ background:rgba(29,45,68,.06); }
+    .foot{
+      margin-top:26px; color:var(--muted); font-size:.95rem;
+    }
+    .links{ margin-top:14px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap;}
+    .links a{ color: var(--muted); text-decoration:none; border-bottom:1px dotted var(--muted); }
+    .links a:hover{ color: var(--fg); border-bottom-color: var(--fg); }
+  </style>
+</head>
+<body>
+  <main class="wrap" role="main">
+          <img src="assets/logo.png" alt="LucidSeal" width="50%"/>
+        
+    <h1>Where Digital Trust Begins</h1>
+    <p class="sub">A free, community-driven framework to help organisations build clarity, accountability, and resilience in the digital era.</p>
+    <div class="cta">
+      <a class="btn" href="#" aria-disabled="true" title="Coming soon">Coming Soon</a>
+      </div>
+    <div class="foot">© 2025 LucidSeal</div>
+    <div class="links">
+      <!--<a href="#" title="Service desk">Support</a>-->
+    </div>
+  </main>
+</body>
+</html>
