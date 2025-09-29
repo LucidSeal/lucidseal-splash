@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297">
+  <style>
+    text { font-family: Poppins, sans-serif; font-size: 6px; fill: #172738; }
+  </style>
+
+  <!-- Function to draw one sticker -->
+  <!-- Replace the <g id="badge"> content with your LucidSeal badge paths -->
+  <defs>
+    <g id="sticker">
+      <!-- Background circle -->
+      <circle cx="0" cy="0" r="35" fill="#ffffff" stroke="#172738" stroke-width="0.5"/>
+      <!-- Badge (placeholder) -->
+      <circle cx="0" cy="0" r="20" fill="#172738"/>
+      <!-- Tagline -->
+      <text x="0" y="32" text-anchor="middle">Where Digital Trust Begins</text>
+    </g>
+  </defs>
+
+  <!-- Layout: 2 columns × 3 rows -->
+  <g transform="translate(52.5,70)"><use href="#sticker"/></g>
+  <g transform="translate(157.5,70)"><use href="#sticker"/></g>
+
+  <g transform="translate(52.5,148.5)"><use href="#sticker"/></g>
+  <g transform="translate(157.5,148.5)"><use href="#sticker"/></g>
+
+  <g transform="translate(52.5,227)"><use href="#sticker"/></g>
+  <g transform="translate(157.5,227)"><use href="#sticker"/></g>
+</svg>
